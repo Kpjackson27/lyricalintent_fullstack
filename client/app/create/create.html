@@ -1,0 +1,31 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+<div class="container">
+  <h1>Create Post</h1>
+  <div class="row">
+    <div class="col-md-4">
+      <p>13 January, 2015</p>
+    </div>
+    <div class="col-md-4 col-md-offset-4">
+      <p>character count</p>
+    </div>
+  </div>
+  <div class="row" ng-controller="CreateCtrl">
+    <form name="create" novalidate>
+      <div class="form-group">
+        <input type="text"  name="title" id="title" ng-model="title" placeholder="Title" />
+      </div>
+      <div class="form-group">
+        <textarea type="text"  name="lyric" ng-model="lyric"  placeholder="Lyrics"></textarea>
+      </div>
+      <div class="form-group col-md-6">
+        <p> ~Username</p>
+      </div>
+      <div class="form-group col-md-6">
+        <input type="text"  id="title" placeholder="Choose your inspiration" />
+      </div>
+      <div class="col-md-12 text-center">
+        <button type="submit" class="btn btn-custom" ng-click="addPoem()">Create Post</button>
+      </div>
+    </form>
+  </div>
+</div>

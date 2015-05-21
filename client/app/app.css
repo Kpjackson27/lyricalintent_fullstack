@@ -1,0 +1,178 @@
+
+/**
+ * Bootstrap Fonts
+ */
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot');
+    src: url('../bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('../bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'),
+    url('../bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+    url('../bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+/**
+ *Font Awesome Fonts
+ */
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../bower_components/font-awesome/fonts/fontawesome-webfont.eot?v=4.1.0');
+    src: url('../bower_components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'),
+    url('../bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'),
+    url('../bower_components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'),
+    url('../bower_components/font-awesome/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**
+ * App-wide Styles
+ */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body{
+  color:#333;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+ font-family: 'Architects Daughter', cursive;
+}
+
+p.front{
+  font-family: 'Dancing Script', cursive;
+  font-size:35px;
+  letter-spacing:1px;
+}
+
+p{
+  letter-spacing:1px;
+}
+
+.btn-custom{
+  color:#333;
+  background-color:#fff;
+  border-color:#000;
+  border-radius:0px;
+}
+
+
+nav{
+  height:50px;
+  width:100%;
+  background-color:#1D7D95;
+}
+
+
+
+.logo{
+  height:50px;
+  width:210px;
+}
+
+.menu-white{
+  background-color: #fff;
+  height: 2px;
+  width: 30px;
+
+}
+
+.top{
+  margin-top:15px;
+  margin-bottom:2px;
+}
+
+
+.middle{
+  margin-top:5px;
+  margin-bottom:2px;
+}
+
+
+.bottom{
+  margin-top:5px;
+  margin-bottom:2px;
+}
+
+footer{
+  height:40px;
+  background-color:#1D7D95;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+.color-white{
+  color:#ffffff;
+}
+
+.chat{
+  width:500px;
+  background-color:red;
+  height:810px;
+}
+
+.btn-main{
+  position:absolute;
+  right:10px;
+  margin-top:10px;
+}
+
+.inner-pad{
+  margin-top:25px;
+}
+
+.inner-container{
+  margin-top:160px;
+
+}
+
+input {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  color: #000 !important;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  line-height: 25px !important;
+  height: 50px !important;
+  margin-bottom: 10px !important;
+  padding: 10px !important;
+  width: 100%;
+  -webkit-transition: all .8s linear;
+  -moz-transition: all .8s linear;
+  -ms-transition: all .8s linear;
+  -o-transition: all .8s linear;
+  transition: all .8s linear;
+}
+
+textarea {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  color: #000 !important;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  line-height: 25px !important;
+  margin-top: 0;
+  padding: 10px !important;
+  resize: none;
+  width: 100%;
+  -webkit-transition: all .8s linear;
+  -moz-transition: all .8s linear;
+  -ms-transition: all .8s linear;
+  -o-transition: all .8s linear;
+  transition: all .8s linear;
+}

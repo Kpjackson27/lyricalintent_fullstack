@@ -1,0 +1,31 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+<div class="btn-main">
+	<button ui-sref="create" class="btn btn-custom">Create</button>
+</div>
+
+<div class="container" ng-controller="SignupCtrl">
+<section id="user-left" class="">
+	<div class="col-md-6">
+		<a href="#"><img src="http://placehold.it/250x250" alt="avatar" class="avatar img-responsive img-circle"/></a>
+		<h2>{{name}}</h2>
+		<h5>{{email}}</h5>
+		<h5>User Stats</h5>
+		<p>{{followers}} followers</p>
+		<p>{{following}} following</p>
+		<p>{{upvotes}} upvotes</p>
+		<p>{{features}} features</p>
+	</div>
+</section>
+
+<section id="user-right" ng-controller="CreateCtrl">
+	<h3>User Posts</h3>
+	<div ng-repeat="poem in poems">
+		<p>{{poem.title}}</p>
+		<p>{{poem.lyric}}</p>
+	<ul class="list-inline text-right">
+		<li><a href="#">Edit</a></li>
+		<li><a ng-click="delete(poem)">Delete</a></li>
+	</ul>
+</div>
+</section>
+</div>
